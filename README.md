@@ -1,4 +1,4 @@
-# comic-sans-everything
+# Times New Roman Everything
 
 ## [Download on Chrome Store]()
 
