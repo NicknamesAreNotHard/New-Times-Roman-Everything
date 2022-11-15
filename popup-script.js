@@ -54,7 +54,7 @@ window.chrome.storage.sync.get(['status', 'uppercase'], (items) => {
 document.getElementById('twttr_button').onclick = () => {
   // open up a new tab with Github
   window.chrome.tabs.create({
-    url: 'https://github.com/719Ben/comic-sans-everything'
+    url: 'https://github.com/NicknamesAreNotHard/New-Times-Roman-Everything'
   })
 }
 document.getElementById('font_switch').onclick = () => {
