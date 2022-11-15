@@ -1,13 +1,13 @@
 'use strict'
 
-let fontOverwrite = '* {font-family: Comic Sans MS !important}'
+let fontOverwrite = '* {font-family: Times New Roman !important}'
 let transformOverwrite = '* {text-transform:uppercase}'
 
 // if we don't have the styleDom, create it
-let styleDom = document.getElementById('comic-sans-everything-style')
+let styleDom = document.getElementById('times-new-roman-everything-style')
 if (!styleDom) {
   styleDom = document.querySelector('head').appendChild(document.createElement('style'))
-  styleDom.id = 'comic-sans-everything-style'
+  styleDom.id = 'times-new-roman-everything-style'
   styleDom.rel = 'stylesheet'
   styleDom.type = 'text/css'
 }
